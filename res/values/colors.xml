@@ -1,21 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Purple color palette -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+
+    <!-- Teal color palette -->
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+
+    <!-- Neutral colors -->
     <color name="black">#FF000000</color>
-    <color name="gray">#808080</color>  <!-- Replace with your desired hex code for gray -->
-    <color name="white">#FFFFFFFF</color>
-    <color name="ic_launcher_background">#FFFFFF</color> <!-- White background for launcher icon -->
-    <!-- Primary color for your app -->
-    <color name="colorPrimary">#6200EE</color> <!-- Customize this color as needed -->
+    <color name="gray">#808080</color>
+    <color name="white">#FFFFFFFF</color> <!-- Make sure this is defined -->
 
-    <!-- Darker variant of the primary color for status bar and action bar -->
-    <color name="colorPrimaryDark">#3700B3</color> <!-- Customize this color as needed -->
+    <!-- Background for launcher icon -->
+    <color name="ic_launcher_background">#FFFFFF</color>
 
-    <!-- Accent color for floating buttons, highlights, etc. -->
-    <color name="colorAccent">#03DAC5</color> <!-- Customize this color as needed -->
-
+    <!-- App theme colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
 </resources>
