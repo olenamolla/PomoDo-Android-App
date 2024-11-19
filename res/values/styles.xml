@@ -1,16 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <!-- Base application theme -->
+    <style name="Theme.PomoDo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Custom application theme attributes -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Dialog Style -->
     <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowSoftInputMode">adjustResize</item>
     </style>
 
+    <!-- Splash Screen Theme -->
+    <style name="Theme.PomoDo.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Splash background color -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item> <!-- Optional: set text color if needed -->
+    </style>
 </resources>
