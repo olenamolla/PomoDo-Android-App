@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.PomoDo" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Define other themes or leave this file empty if Theme.PomoDo is already defined in styles.xml -->
+    <!-- You can define specific themes for different screens or styles here if needed -->
 </resources>
